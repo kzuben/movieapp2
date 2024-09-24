@@ -105,7 +105,7 @@ function coin() {
 
 function App() {
 
-  return <Router>
+  return <Router basename="/movieapp2">
     <Routes>
       <Route path="/movie/:id" element={<Detail />}></Route>
       <Route path="/" element={<Home />}></Route>
